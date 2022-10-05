@@ -4,6 +4,7 @@ public class OctagonalPrism extends Shape3D {
 
 	private double height;
 	private double edgeLength;
+
 	public OctagonalPrism(double height, double edgeLength) {
 		super();
 		this.height = height;
@@ -30,7 +31,5 @@ public class OctagonalPrism extends Shape3D {
 	public String toString() {
 		return "SquarePrism [height=" + height + ", edgeLength=" + edgeLength + "]";
 	}
-	
-	
-	
+
 }
